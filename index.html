@@ -1,476 +1,381 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head prefix="og: https://ogp.me/ns#">
+<head>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="大阪府大阪市に拠点をおく青牡丹工務店は、丁寧な家造りで理想を現実にします。住宅建築からリフォームまで、高品質なサービスと経験豊富なスタッフがお客様のニーズに応えます。お気軽にご相談ください。">
-    <title>青牡丹工務店 | 大阪市北区の住宅建築・リフォーム・公共事業なら青牡丹工務店</title>
+    <meta name="discription" content="「天童さくもり農園」は、四季折々の美味しい果物を提供するだけでなく、訪れる人々の心も満たすことを使命としています。">
+    <title>山形県天童市の農園 | 天童さくもり農園</title>
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/anime.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="css/swiper.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+New&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Noto+Serif+JP:wght@400;500;700&family=Zen+Old+Mincho:wght@700&display=swap" rel="stylesheet">
 
     <!-- ここからmetaタグの記述 -->
-    <meta property="og:url" content="https://yuka-portfolio.net/chukyu_ex/index.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="青牡丹工務店 | 大阪市北区の住宅建築・リフォーム・公共事業なら青牡丹工務店">
-    <meta property="og:description"
-        content="大阪府大阪市に拠点をおく青牡丹工務店は、丁寧な家造りで理想を現実にします。住宅建築からリフォームまで、高品質なサービスと経験豊富なスタッフがお客様のニーズに応えます。お気軽にご相談ください。">
-    <meta property="og:site_name" content="青牡丹工務店 | 大阪市北区の住宅建築・リフォーム・公共事業なら青牡丹工務店">
-    <meta property="og:image" content="https://yuka-portfolio.net/chukyu_ex/images/ogp.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="山形県天童市の農園 | 天童さくもり農園" />
+    <meta property="og:discription" content="「天童さくもり農園」は、四季折々の美味しい果物を提供するだけでなく、訪れる人々の心も満たすことを使命としています" />
+    <meta property="og:site_name" content="山形県天童市の農園 | 天童さくもり農園" />
+    <meta property="og:image" content="" />
 </head>
 
 <body>
-    <div class="loading">
-        <img src="images/logo-pc.svg" alt="">
+
+    <div class="loader-bg js-loader-bg">
+        <div class="loader js-loader">
+            <img src="images/logo-01.png" alt="" />
+        </div>
     </div>
 
-    <div class="contents hidden">
+    <div class="wrap">
+
+        <div class="fv">
+            <div class="top__catch">
+                <div class="catch__item">
+                    <p class="catch__sentence first">心までも満たす</p>
+                </div>
+                <div class="catch__item">
+                    <p class="catch__sentence second">香り高いフルーツたち</p>
+                </div>
+                <!-- <div class="catch__item">
+                    <p class="catch__sentence third">喜びを</p>
+                </div> -->
+            </div>
+        </div>
+
         <header class="header">
-            <h1 class="header__logo">
-                <a href="index.html"><img src="images/logo-pc.svg" alt="青牡丹工務店ロゴ"></a>
-            </h1>
-            <div id="hamburger" class="hamburger">
+            <div id="hamburger" class="hamburger" aria-label="メニューを開く" aria-controls="gnav">
                 <span class="hamburger__line" aria-hidden="true"></span>
                 <span class="hamburger__line" aria-hidden="true"></span>
                 <span class="hamburger__line" aria-hidden="true"></span>
             </div>
+            <nav class="gnav" id="gnav" aria-label="メインメニュー">
+                <ul class="gnav__list">
+                    <div class="gnav__logo-rp">
+                        <img src="images/logo-02.png" alt="" class="header__logo-img">
+                    </div>
+                    <li class="gnav__item"><a href="#about" class="gnav__link">この農園について</a></li>
+                    <li class="gnav__item"><a href="#products" class="gnav__link">製品一覧</a></li>
+                    <li class="gnav__item"><a href="#announce" class="gnav__link">お知らせ</a></li>
 
-            <div class="accodion">
-                <nav class="gnav">
-                    <ul class="menu">
-                        <li class="pc-none">
-                            <a href="#" class="menu-title">トップ</a>
-                        </li>
-                        <li>
-                            <a href="about/index.html" class="menu-title plus">私達について</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="about/index.html#philosophy">経営理念</a>
-                                </li>
-                                <li>
-                                    <a href="about/index.html#company">会社概要</a>
-                                </li>
-                                <li>
-                                    <a href="about/index.html#safety">安全への取り組み</a>
-                                </li>
-                            </ul>
-                        </li>
+                    <h1 class="header__logo">
+                        <li class="gnav__item"><img src="images/logo-02.png" alt="" class="header__logo-img"></li>
+                    </h1>
 
-                        <li>
-                            <a href="service/index.html" class="menu-title plus">事業内容</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="service/index.html#house">住宅建築・リフォーム</a>
-                                </li>
-                                <li>
-                                    <a href="service/index.html#corporate">法人新築・リフォーム</a>
-                                </li>
-                                <li>
-                                    <a href="service/index.html#public">公共工事</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="index.html#news" class="menu-title">お知らせ</a>
-                        </li>
-                        <li>
-                            <a href="contact/index.html" class="menu-title message"><span class="rp-message">お問い合わせ</span></a>
-                        </li>
-
-                    </ul>
-                    <div class="header__copyright pc-none">© AOBOTAN INC.</div>
-                </nav>
+                    <li class="gnav__item"><a href="#faq" class="gnav__link">FAQ</a></li>
+                    <li class="gnav__item"><a href="#access" class="gnav__link">アクセス</a></li>
+                    <li class="gnav__item"><a href="#contact" class="gnav__link">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <div class="header__logo-rp">
+                <h1 class="header__logo">
+                    <img src="images/logo-02.png" alt="" class="header__logo-img">
+                </h1>
             </div>
         </header>
 
         <main class="main">
-            <div class="fv">
-                <div class="fv__img">
-                    <img class="fv__pc" src="images/first-view.png" alt="青牡丹工務店イラスト">
-                    <img class="fv__rp" src="images/first-view-sp.jpg" alt="青牡丹工務店イラスト">
-                </div>
-                <div class="catch__area fade-target">
-                    <p class="catch__heading">理想を、カタチに</p>
-                    <p class="catch__text">住宅購入は一生に一度あるかないかの、大きな買い物です。<br>
-                        青牡丹工務店は、最高の家造りを行うスペシャリスト集団です。
-                    </p>
-                </div>
-                <div class="scroll">
-                    <span>scroll down</span>
-                </div>
-            </div>
-
-            <section class="top__about top__section">
-                <div class="swiper __container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="images/slide01.jpg" alt="現場で作業をする大工">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/slide02.jpg" alt="設計図を書く建築士">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/slide03.jpg" alt="書類を作成するスタッフ">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/slide01.jpg" alt="現場で作業をする大工">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/slide02.jpg" alt="設計図を書く建築士">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/slide03.jpg" alt="書類を作成するスタッフ">
-                        </div>
-                    </div>
-                </div>
-                <div class="detail">
-                    <div class="slide__text fadein">
-                        <p><span class="t-blue">丁寧な家造り</span>で</p>
-                        <p>理想を現実に</p>
-                    </div>
-                    <div class="inner">
-                        <h2 class="top-section__title fadein">
-                            <span class="title__jp">私達について</span>
-                            <span class="title__en">ABOUT</span>
-                        </h2>
-                        <p class="section__detail-text">
-                            「丁寧な家造りで、理想を現実に」。これは私たちの約束です。青牡丹工務店が手がける家は、ただの建物ではありません。それは、お客様の暮らしや夢を支える、信頼と品質に満ちた温かな空間です。
-                        </p>
-                        <a href="about/index.html" class="btn more-btn bk-dot">Read More</a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="top__service  top__section">
+            <section class="catch-area bg_beige" id="about">
                 <div class="wrapper">
-
-                    <h2 class="top-section__title fadein">
-                        <span class="title__jp">事業内容</span>
-                        <span class="title__en">SERVICE</span>
-                    </h2>
-                    <ul class="service__list">
-                        <li class="service__item">
-                            <div class="flex">
-                                <div class="service__img">
-                                    <img src="images/top_house01.jpg" alt="住宅外観">
-                                </div>
-                                <div class="service__detail">
-                                    <span class="service__no">01</span>
-                                    <h3 class="service__heading">住宅建築・リフォーム</h3>
-                                    <p class="section__detail-text">
-                                        注文住宅では、お客様のニーズや希望に合わせて、オーダーメイドの家を提供します。私たちは、建物の設計から完成までのプロセスで、お客様と緊密に連携し、理想の暮らしを実現するための最適な解決策を提案します。
-                                    </p>
-                                    <a href="service/index.html#house" class="btn more-btn bk-dot">Read More</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="service__item">
-                            <div class="flex">
-                                <div class="service__img">
-                                    <img src="images/top_house02.jpg" alt="法人倉庫外観">
-                                </div>
-                                <div class="service__detail">
-                                    <span class="service__no even">02</span>
-                                    <h3 class="service__heading">法人新築・リフォーム</h3>
-                                    <p class="section__detail-text">
-                                        法人新築では、商業施設やオフィスビル、工場など、さまざまなニーズに応じた建物の新築を手がけています。お客様のビジネスの要件やイメージに合わせて、効率的で機能的な建物を設計・施工します。
-                                    </p>
-                                    <a href="service/index.html#corporate" class="btn more-btn bk-dot">Read More</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="service__item">
-                            <div class="flex">
-                                <div class="service__img">
-                                    <img src="images/top_house03.jpg" alt="公共施設外観">
-                                </div>
-                                <div class="service__detail">
-                                    <span class="service__no">03</span>
-                                    <h3 class="service__heading">公共工事</h3>
-                                    <p class="section__detail-text">
-                                        公共工事では、道路や橋梁、公共施設など、地域社会に欠かせないインフラや施設の建設・改修を行います。私たちは、公共の福祉と安全を考慮しながら、厳格な規制や基準に適合した施工を行います。
-                                    </p>
-                                    <a href="service/index.html#public" class="btn more-btn bk-dot">Read More</a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                    <p class="main__catch">大地の恵みをたっぷりと、<br class="sm">贅沢に</p>
+                    <p class="main__text">
+                        天童さくもり農園は、山形県の豊かな自然環境と気候を活かし、<br class="pc">
+                        最高品質の美味しい果物を生産しています。<br>
+                        長い歴史と伝統を背景に、地元の農家の知恵と技術を結集し、<br class="md">
+                        新鮮で健康的な果物を提供しています。<br>
+                        季節ごとに異なる果物が楽しめる当園では、<br class="pc">
+                        さくらんぼや桃、ぶどう・リンゴなどの人気のある品種から、<br class="pc">
+                        地域特産の珍しい果物まで幅広い品揃えが自慢です。<br>
+                        天童さくもり農園の果物は、厳選された土地で栽培され、<br class="pc">
+                        太陽の光と清らかな水に恵まれて育ちます。<br>
+                        そのため、豊かな旨味と香り高い風味を誇る果物が収穫されます。<br>
+                        私たちは常に品質と安全を最優先にし、<br class="pc">
+                        お客様に安心してお楽しみいただける商品を提供しています。<br>
+                        山形の四季折々の美しい景色と共に、<br class="pc">
+                        自然の恵みが詰まった天童さくもり農園の果物をぜひお試しください。
+                    </p>
+                    <div class="main__img-area">
+                        <figure class="sub-img"><img src="images/about-01.png" class="about-sub-pic" alt=""></figure>
+                        <figure class="sub-img"><img src="images/about-02.png" class="about-sub-pic" alt=""></figure>
+                    </div>
                 </div>
             </section>
 
-            <section class="top__news top__section" id="news">
-                <div class="inner">
+            <section class="products bg_beige section" id="products">
+                <h2 class="section__title">製品一覧</h2>
+                <div class="swiper">
+                    <div class="cards swiper-wrapper">
+                        <div class="cards__item card swiper-slide">
+                            <figure class="card__img-wrapper">
+                                <img src="images/product-cherry.jpg" alt="" class="card__img">
+                            </figure>
+                            <div class="card__body">
+                                <h3 class="card__title">「佐藤錦」「紅秀峰」「紅さやか」「紅きらり」など豪華さくらんぼの詰め合わせ 1kg</h3>
+                                <p class="card__price">￥ 9,800（税込）</p>
+                            </div>
+                        </div><!-- .cards__item end -->
+                        <div class="cards__item card swiper-slide">
+                            <figure class="card__img-wrapper">
+                                <img src="images/product-grape.jpg" alt="" class="card__img">
+                            </figure>
+                            <div class="card__body">
+                                <h3 class="card__title">天童さくもり農園自慢の「シャインマスカット」と「安芸クイーン」500g</h3>
+                                <p class="card__price">￥ 7,700（税込）</p>
+                            </div>
+                        </div><!-- .cards__item end -->
+                        <div class="cards__item card swiper-slide">
+                            <figure class="card__img-wrapper">
+                                <img src="images/product-apple.jpg" alt="" class="card__img">
+                            </figure>
+                            <div class="card__body">
+                                <h3 class="card__title">シャキシャキしたシャリ感のある歯触りと濃厚な食味が特徴の山形リンゴ 不揃い1kg</h3>
+                                <p class="card__price">￥ 4,200（税込）</p>
+                            </div>
+                        </div><!-- .cards__item end -->
+                        <div class="cards__item card swiper-slide">
+                            <figure class="card__img-wrapper">
+                                <img src="images/product-peach.jpg" alt="" class="card__img">
+                            </figure>
+                            <div class="card__body">
+                                <h3 class="card__title">「あかつき」「川中島白桃」「玉うさぎ」「おどろき」などお試し詰め合わせパック</h3>
+                                <p class="card__price">￥ 6,500（税込）</p>
+                            </div>
+                        </div><!-- .cards__item end -->
+                    </div>
+                </div><!-- .swiper end -->
+            </section><!-- section.products end -->
 
-                    <h2 class="top-section__title fadein">
-                        <span class="title__jp">お知らせ</span>
-                        <span class="title__en">NEWS</span>
-                    </h2>
-                    <!-- ポップアップ -->
+            <section class="announce section" id="announce">
+                <h2 class="section__title">お知らせ</h2>
+                <div class="wrapper">
                     <ul class="parallel-posts">
                         <li class="parallel-posts__item">
-                            <button class="modal__btn" data-micromodal-trigger="modal-1">
-                                <span class="parallel-posts__category">イベント情報</span>
-                                <time datetime="2024-06-03" class="parallel-posts__date">2024.06.03</time>
-                                <span class="parallel-posts__title">住宅設計相談会を実施します。弊社建築士と将来の家造りを真剣に考えませんか？</span>
-                            </button>
-                            <div id="modal-1" aria-hidden="true">
-                                <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-                                    <div class="modal__container" role="dialog" aria-modal="true">
-                                        <span class="parallel-posts__category">イベント情報</span>
-                                        <time datetime="2024-06-03" class="parallel-posts__date">2024.06.03</time>
-                                        <h3 class="modal__title">住宅設計相談会を実施します。弊社建築士と将来の家造りを真剣に考えませんか？</h3>
-                                        <div class="modal__img"><img src="images/news01.jpg" alt="新築内装"></div>
-                                        <p class="modal__text">
-                                            みなさま、こんにちは！弊社では、住宅設計相談会を開催することになりました！将来の家造りを真剣に考える皆様、ぜひご参加ください。 <br>
-                                            <br>
-                                            家を建てるというのは、人生の中で最も重要なイベントの一つです。そのためには、慎重な計画と適切なアドバイスが欠かせません。そこで、弊社の建築士が皆様のお悩みやご要望をお聞きし、最適な家づくりの提案をさせていただきます。
-                                            <br>
-                                            <br>
-                                            住宅設計相談会では、以下のようなことについてご相談いただけます： <br>
-                                            <br>
-                                        </p>
-                                        <ul class="modal__in-list">
-                                            <li>・理想の間取りやデザインについて</li>
-                                            <li>・予算や資金計画の相談</li>
-                                            <li>・土地選びや法的手続きについてのアドバイス</li>
-                                            <li>・新しい住宅技術や省エネルギーの取り入れ方について</li>
-                                        </ul>
-                                        <p class="modal__text">
-                                            <br>
-                                            また、相談会に参加いただいた方には、特別なサービスやプレゼントもご用意しています。家造りに関するご質問や疑問点がある方は、ぜひこの機会にお気軽にご参加ください。<br>
-                                            <br>
-                                            弊社の建築士が、皆様のご要望にお応えし、一緒に理想の家づくりを実現するお手伝いをさせていただきます。ぜひお越しください！
-                                        </p>
-
-                                        <button class="modal__close btn bk-dot" aria-label="Close modal"
-                                            data-micromodal-close>閉じる</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="parallel-posts__item">
-                            <button class="modal__btn" data-micromodal-trigger="modal-2">
-                                <span class="parallel-posts__category">イベント情報</span>
-                                <time datetime="2024-05-23" class="parallel-posts__date">2024.05.23</time>
-                                <span class="parallel-posts__title">安全管理研修を行いました。</span>
-                            </button>
-                            <div id="modal-2" aria-hidden="true">
-                                <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-                                    <div class="modal__container" role="dialog" aria-modal="true">
-                                        <span class="parallel-posts__category">イベント情報</span>
-                                        <time datetime="2024-05-23" class="parallel-posts__date">2024.05.23</time>
-                                        <h3 class="modal__title">安全管理研修を実施しました！</h3>
-                                        <div class="modal__img"><img src="images/news02.jpg" alt="研修会の様子"></div>
-                                        <p class="modal__text">
-                                            弊社では、従業員の安全意識向上と安全管理の強化を目的として、安全管理研修を実施しました。この研修では、従業員全員が安全な作業環境を確保するための重要性や具体的な対策について学び、より安全な職場づくりに向けた取り組みを行いました。<br>
-                                            研修では、以下の内容を中心に学びました： <br>
-                                            <br>
-                                        </p>
-                                        <ul class="modal__in-list">
-                                            <li>・作業中の事故や災害を防ぐための基本的な安全ルールや手順</li>
-                                            <li>・安全装置や保護具の正しい使用方法と管理について</li>
-                                            <li>・土地選びや法的手続きについてのアドバイス</li>
-                                            <li>・作業現場での危険予知や事故対応のためのトレーニング</li>
-                                        </ul>
-                                        <p class="modal__text">
-                                            <br>
-                                            また、実際の事例やケーススタディを通じて、事故や災害が発生した際の適切な対応方法についても学びました。参加者全員が積極的に議論し、知識を深めることができました。<br>
-                                            <br>
-                                            安全管理研修を通じて、従業員一人ひとりが安全に対する意識を高め、安全な職場環境の実現に向けて一層の努力をすることを確認しました。今後も定期的に研修を実施し、安全管理の徹底を図ってまいります。
-                                        </p>
-
-                                        <button class="modal__close btn bk-dot" aria-label="Close modal"
-                                            data-micromodal-close>閉じる</button>
-                                    </div>
-                                </div>
-                            </div>
+                            <time class="parallel-posts__date">2024/01/18</time>
+                            <a href="#" class="parallel-posts__title">道の駅天童温泉にて、果物の期間限定販売中です。</a>
                         </li>
                         <li class="parallel-posts__item">
-                            <button class="modal__btn" data-micromodal-trigger="modal-3">
-                                <span class="parallel-posts__category">更新情報</span>
-                                <time datetime="2024-05-01" class="parallel-posts__date">2024.05.01</time>
-                                <span class="parallel-posts__title">ホームページをリニューアルしました！！</span>
-                            </button>
-                            <div id="modal-3" aria-hidden="true">
-                                <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-                                    <div class="modal__container" role="dialog" aria-modal="true">
-                                        <span class="parallel-posts__category">更新情報</span>
-                                        <time datetime="2024-05-01" class="parallel-posts__date">2024.05.01</time>
-                                        <h3 class="modal__title">ホームページをリニューアルしました！！</h3>
-                                        <div class="modal__img"><img src="images/news03.jpg" alt="ホームページ設計ミーティングの様子">
-                                        </div>
-                                        <p class="modal__text">
-                                            弊社は、お客様により良いサービスを提供するため、ホームページをリニューアルいたしました。新しいデザインと使いやすさを追求し、お客様が情報をより簡単に見つけられるように工夫しました。<br>
-                                            新しいホームページでは、以下のような改善点がございます：<br>
-                                            <br>
-                                        </p>
-                                        <ul class="modal__in-list">
-                                            <li>・モダンでスタイリッシュなデザインにより、情報の見やすさと視覚的な魅力を向上</li>
-                                            <li>・より直感的で分かりやすいナビゲーションメニューにより、目的の情報へのアクセスがスムーズになりました</li>
-                                            <li>・より多くの情報やサービスを掲載し、お客様のニーズに合った情報を提供するようになりました</li>
-                                            <li>・モバイルフレンドリーなデザインで、スマートフォンやタブレットからも快適に閲覧できます</li>
-                                        </ul>
-                                        <p class="modal__text">
-                                            <br>
-                                            弊社のホームページは、お客様とのコミュニケーションや情報提供の重要なツールです。より使いやすく、わかりやすいホームページを提供することで、お客様との良好な関係を築いていくことが目標です。<br>
-                                            <br>
-                                            ぜひ、新しいホームページをご覧いただき、お客様のご意見やご要望をお聞かせください。今後もお客様により良いサービスを提供できるよう努めてまいります。
-                                        </p>
-
-                                        <button class="modal__close btn bk-dot" aria-label="Close modal"
-                                            data-micromodal-close>閉じる</button>
-                                    </div>
-                                </div>
-                            </div>
+                            <time class="parallel-posts__date">2023/12/10</time>
+                            <a href="#" class="parallel-posts__title">不揃いリンゴの販売を開始します。</a>
+                        </li>
+                        <li class="parallel-posts__item">
+                            <time class="parallel-posts__date">2023/10/04</time>
+                            <a href="#" class="parallel-posts__title">「シャインマスカット」の販売を開始しました！</a>
                         </li>
                     </ul>
-                </div>
-            </section>
+                </div><!-- .wrapper end -->
+            </section><!-- section.announce end -->
 
-            <section class="contact">
-                <h2 class="top-section__title fadein">
-                    <span class="title__jp">お問い合わせ</span>
-                    <span class="title__en">CONTACT</span>
-                </h2>
-                <div class="flex">
-                    <p class="contact__title contact__box">
-                        <span class="contact__title-heading">Tel</span>
-                        <span class="small">お電話</span>
-                    </p>
-                    <p class="contact__detail contact__box">
-                        <span class="contact__title-heading">0000-000-0000</span>
-                        <span class="small">営業時間10:00-20:00</span>
-                    </p>
-                    <div>
-                        <a href="contact/index.html" class="btn bk-dot"><img class="icon__mail"
-                                src="images/icon_mail.png" alt="">メールフォームはこちら</a>
-                    </div>
+            <section class="faq bg_beige section" id="faq">
+                <h2 class="section__title">FAQ</h2>
+                <div class="accordion inner">
+                    <dl class="accordion-body">
+                        <dt class="accordion__title"><span>Q</span>お土産だけでも買えますか？</dt>
+                        <dd class="accordion__text">お買い求めいただけます。農園内に売店がございます。試食もできますのでお気軽にお越しください。</dd>
+                    </dl>
+                    <dl class="accordion-body">
+                        <dt class="accordion__title"><span>Q</span>どのような支払い方法がありますか？</dt>
+                        <dd class="accordion__text">
+                            商品代引きとクレジットカード決済があります。代引き手数料は、10,800円未満で税込330円・10,800円以上32,400円未満で税込440円・32,400円以上102,400円未満で税込660円です。手数料はお客様のご負担となりますのでご了承ください。クレジットカード決済は、JCB・VISA・master・ダイナース・アメリカンエキスプレスのマークが入っているカードすべてご利用になれます。
+                        </dd>
+                    </dl>
+                    <dl class="accordion-body">
+                        <dt class="accordion__title"><span>Q</span>ペットの同伴はできますか？</dt>
+                        <dd class="accordion__text">可能です。他のお客様のご迷惑にならないよう、リードで繋ぐかゲージを使用いただければ大丈夫です。</dd>
+                    </dl>
+                    <dl class="accordion-body">
+                        <dt class="accordion__title"><span>Q</span>自分で取ったものを持ち帰りできますか？</dt>
+                        <dd class="accordion__text">個人のお客様に限り、ご希望がありましたら可能な限り対応しています。料金は時価で、その日に売店に量り売りの料金をお知らせしています。
+                        </dd>
+                    </dl>
+                    <dl class="accordion-body">
+                        <dt class="accordion__title"><span>Q</span>日付指定して送ることは出来ますか？</dt>
+                        <dd class="accordion__text">
+                            ご注文後、通常７営業日以内での発送となりますが、ご注文日から７営業日以降でしたら日付指定が可能です。ただし、ご注文が集中した場合や地域によっては日付指定が難しい場合がございますので、あらかじめご了承ください。（ご注文の際に、お問い合わせください）
+                        </dd>
+                    </dl>
                 </div>
-            </section>
+            </section><!-- section.faq end -->
+
+            <section class="access section" id="access">
+                <h2 class="section__title">アクセス</h2>
+                <div class="info wrapper">
+                    <dl class="summary">
+                        <div class="summary__label">
+                            <dt class="summary__title">会社名</dt>
+                            <dd class="summary__detail">天童さくもり農園</dd>
+                        </div>
+                        <div class="summary__label">
+                            <dt class="summary__title">代表者名</dt>
+                            <dd class="summary__detail">咲森 優香</dd>
+                        </div>
+                        <div class="summary__label">
+                            <dt class="summary__title">所在地</dt>
+                            <dd class="summary__detail">山形県天童市奈良沢×××××</dd>
+                        </div>
+                        <div class="summary__label">
+                            <dt class="summary__title">E-mail</dt>
+                            <dd class="summary__detail">sakumori-farm@gmail.com</dd>
+                        </div>
+                    </dl>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50070.779589442405!2d140.31632065773005!3d38.33917375465812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8bcf7d2bba4851%3A0x754084127fe7fe81!2z6LaK546L5bGx!5e0!3m2!1sja!2sjp!4v1706743983282!5m2!1sja!2sjp"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div><!-- .map end -->
+                </div><!-- .info end -->
+            </section><!-- section.access end -->
+
+            <section class="contact bg_beige section" id="contact">
+                <h2 class="section__title">お問い合わせ</h2>
+                <div class="inner">
+                    <p class="contact__text">ご購入・販売に関しましては、<br class="md">下記よりお気軽にお問い合わせください。</p>
+                    <form action="mail.php" method="post" class="form-area" id="form">
+                        <h3 class="form__title">お問い合わせメールフォーム</h3>
+                        <div class="contact-table">
+                            <div class="contact__container">
+                                <div class="input-line v-align">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">お問い合わせ種類
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <ul class="radio-list">
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="kinds" value="弊社製品について" checked required>
+                                                    <span>弊社製品について</span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="kinds" value="いちご狩りについて" required>
+                                                    <span>フルーツ狩りについて</span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label>
+                                                    <input type="radio" name="kinds" value="その他のお問い合わせ" required>
+                                                    <span>その他のお問い合わせ</span> </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">お名前
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="name" name="name" placeholder="" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">
+                                            郵便番号
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="post-code" name="post-code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">ご住所
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="address" name="address" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">メールアドレス
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="email" name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line">
+                                    <div class="input-label">
+                                        <label for="contact_type" class="input-label">電話番号
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="tel" name="tel" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact__container">
+                                <div class="input-line v-align">
+                                    <div class="input-label last">
+                                        <label for="contact_msg">お問い合わせ内容
+                                            <span class="require">必須</span>
+                                        </label>
+                                    </div>
+                                    <div class="input-field">
+                                        <textarea name="textarea" id="contact_msg" class="textarea" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-btn">
+                            <input type="submit" class="submit-btn" value="送信する">
+                        </div>
+                    </form>
+
+                    <p class="end-message">お問い合わせありがとうございました</p>
+                    <p class="false-message">送信失敗です</p>
+                </div><!-- .wrapper end -->
+            </section><!-- section.contact end -->
         </main>
 
         <footer class="footer">
-            <div class="flex">
-                <div class="flex__item">
-                    <div class="footer__logo">
-                        <img src="images/logo-pc.svg" alt="">
-                    </div>
-                    <div class="company__info">
-                        <dl>
-                            <div class="flex">
-                                <dt class="post-cord">〒000-0000</dt>
-                                <dd>大阪府大阪市中央区北区南町5-6-7</dd>
-                            </div>
-                        </dl>
-                        <dl>
-                            <div class="flex">
-                                <dt class="time">営業時間</dt>
-                                <dd class="time-detail">10:00~20:00</dd>
-                            </div>
-                        </dl>
-                        <dl>
-                            <div class="flex">
-                                <dt class="holiday">定休日</dt>
-                                <dd class="holiday-detail">日曜日、祝日、年末年始（12月31日から1月3日まで）</dd>
-                            </div>
-                        </dl>
-                    </div>
-                </div>
-                <div class="flex__item ">
-                    <ul class="footer__link-list flex">
-                        <li><a href="index.html" class="footer__link">トップページ</a></li>
-                        <li><a href="about/index.html" class="footer__link">私達について</a></li>
-                        <li><a href="about/index.html#philosophy" class="footer__link">経営理念</a></li>
-                    </ul>
-                    <ul class="footer__link-list flex">
-                        <li><a href="about/index.html#company" class="footer__link">会社概要</a></li>
-                        <li><a href="about/index.html#safety" class="footer__link">安全への取り組み</a></li>
-                        <li><a href="service/index.html" class="footer__link">事業内容</a></li>
-                        <li><a href="service/index.html#house" class="footer__link">住宅建築・リフォーム</a></li>
-                    </ul>
-                    <ul class="footer__link-list flex">
-                        <li><a href="service/index.html#corporate" class="footer__link">法人新築・リフォーム</a></li>
-                        <li><a href="service/index.html#public" class="footer__link">公共工事</a></li>
-                        <li><a href="index.html#news" class="footer__link">お知らせ</a></li>
-                        <li><a href="contact/index.html" class="footer__link"><img src="images/icon_mail.png"
-                                    alt="">お問い合わせ</a></li>
-                    </ul>
-                    <p class="copyright">© AOBOTAN INC.</p>
-                </div>
+            <div class="footer__logo-area">
+                <img src="images/logo-01.png" alt="" class="footer__logo-img">
+                <img src="images/logo-02.png" alt="" class="footer__logo-img">
+            </div>
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a href="#about" class="footer-nav__link">この農園について</a></li>
+                <li class="footer-nav__item"><a href="#products" class="footer-nav__link">製品一覧</a></li>
+                <li class="footer-nav__item"><a href="#announce" class="footer-nav__link">お知らせ</a></li>
+                <li class="footer-nav__item"><a href="#faq" class="footer-nav__link">FAQ</a></li>
+                <li class="footer-nav__item"><a href="#access" class="footer-nav__link">アクセス</a></li>
+                <li class="footer-nav__item"><a href="#contact" class="footer-nav__link">お問い合わせ</a></li>
+            </ul>
+            <div class="copyright">
+                <p class="copyright__sentence">©︎ 2023 SAKUMORINOUEN.</p>
             </div>
         </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </div><!-- .wrap end -->
+
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/micromodal/dist/micromodal.min.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        const isFirstLoad = sessionStorage.getItem('isFirstLoad');
-        window.addEventListener('load', function () {
-            if (isFirstLoad !== 'true') {
-                const loadingElement = document.querySelector('.loading');
-                loadingElement.classList.add('active');
-
-                setTimeout(function () {
-                    loadingElement.classList.remove('active');
-                    const contentsElement = document.querySelector('.contents.hidden');
-                    contentsElement.classList.remove('hidden');
-
-                    sessionStorage.setItem('isFirstLoad', 'true');
-                }, 1000);
-                setTimeout(function () {
-                    loadingElement.style.display = 'none';
-                }, 1500);
-            } else {
-                const contentsElement = document.querySelector('.contents.hidden');
-                contentsElement.classList.remove('hidden');
-            }
-        });
-
-        const swiper = new Swiper(".swiper", {
-            loop: true,
-            centeredSlides: true,
-            loopAdditionalSlides:1,
-            slidesPerView: 2, // 一度に表示する枚数
-            spaceBetween: 48,
-            speed: 6000, // ループの時間
-            allowTouchMove: false, // スワイプ無効
-            autoplay: {
-                delay: 0, // 途切れなくループ
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1.2,
-                    spaceBetween: 16,
-                },
-                700: {
-                    slidesPerView: 'auto',
-                },
-            },
-        });
-
-
-        MicroModal.init({
-            awaitOpenAnimation: true,
-            openClass: "is-open",
-            disableScroll: true,
-        });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
